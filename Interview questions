@@ -1422,3 +1422,54 @@ what is the networking you are using in AKS
 14.suppose you are using SQL db, there cpu goes beyond 75% how do you upgrade it
 15.have you ever used terraform cloud
 16.do you use helmchart for AKS deployements
+
+CTS Questions
+===============
+1.Day to day tasks
+2.How did you reduce the sizes of docker images?
+3.Explain the CICD pipeline used
+4.What have you done in Kubernetes?
+5.How did you write deployment files w.r.t microservices in your project and how did you configure services and ingress?
+6.Did you configure Ingress and Egress rules?
+7.What have you done in Terraform and how did you do the integration?
+8.Difference between Terraform destroy and refresh command
+9.How to prevent someone from running terraform destroy or destroying the infra?
+10.How did you do cost optimization in your project?
+11.Write Python script to differentiate items in a list based on whether the item starts with a or b - [‘abc’, ‘vca’, ‘abc’. ‘bca’]
+12.What have you done in Ansible?
+13.If an Ansible playbook keeps running for 2-3 hours, what are your next steps?
+14.Ansible Tower?
+
+EPAM systems - 7 YOE - AWS DevOps Engineer
+==============================================
+1. Diff b/w ALB and NLB
+2. Purpose of using VPC Endpoint with use case
+3. Is it possible to take AMI details from Snapshots
+4. How to check LB health details (monitoring) through AWS service
+5. Diff type of instance profiles
+6. AMI vs Snapshots
+7. Development team changed the AMI configuration to ASG launch template, how will you make sure that the new version is deployed properly.
+8. 170.90.00.9/0 - Is Public IP or Private IP
+9. How to find out if the provided IP is public or Private
+10. 192.90.90.88/12 - Is private or Host
+11. TGW in AWS
+12. Post connecting diff VPCs through TGW, I want to black the traffic of A to B and B to C, how to perform it
+13. EC2 in a private subnet should receive inbound traffic, how to enable it ? → NOT NAT Gateway
+14. Enabling tight security to my LB
+15. Is it possible to add multiple LBs to my sub web pages
+16. userdata in EC2
+17. How to segregate the critical details from VPC flow logs
+18. Diff b/w Fargate vs EKS worker nodes
+19.Updating EKS cluster
+20. ASG is active and the load is heavy, due to that two EC2 instances are launched, but EC2 provision is taking 2 to 3 mins of time because of the ASG terminating the instance, how to avoid it.
+21. I've huge traffic coming between 5 PM to 8 PM daily, how to configure this in ASG
+22. Can we create two diff CICR blocks 172. && 192. series in same VPC
+23. Customizing WAF
+24. Cloud Front configuration
+25. AWS Image builder
+26. Diff type of instances
+27. If you're storing all your VPC Flow logs in S3 bucket, how to see that
+28. API Gateway configuration
+29. Diff between Private and Public IPs
+30. Diff between Spot VS reserved instances
+
