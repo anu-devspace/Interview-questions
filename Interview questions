@@ -1588,3 +1588,52 @@ IBM Cloud Engineer
 28. Have you worked with any monitoring tools? What tools, and what was your role in using them?
 29. How will you disable the root login into a particular server ?
 30. What is the file, you have made the changes , can you tell me the file name and path ?
+
+Encora interview questions - 2nd Round   
+=====================================
+1.what is terraform lifecycle
+2.i had created an resource manually, how to do you implement it through terraform
+3.for each and count difference, provide examples in terraform
+4.how do you create an module and how do you refer it in terraform
+5.how to handle peak traffic after an launch of new product in web app
+6.there are multiple micro services and multiple websites, I want to ensure security how do you handle it
+7.what is CSI drivers
+8.what is helm template and helm install
+9.what is helpers files in helm
+10.how do you rotate the secrets in key vault and implement .pfx certificate in application gateway , along with ingress/controller in AKS
+11.architecture of Kubernetes 
+12.what is Service principle in azure – provide an example 
+13.there is an backend API, I want securely communicate with other, how do you implement it
+14.what is daemonset and statefulset 
+15.am having an range of ip address 10.0.0.0/16 , I want to have 10.0.0.0/21 subnets , how will I achieve it terraform , how do use locals word and achieve it
+16.crashloopbackoff – what are the setps you will follow to troubleshoot further
+17.what are the branching strategies and pipeline creation mechanism 
+18.what are the files present inside helm chart 19.what is CNI plugin
+
+Target Roles: DevOps Engineer, SRE, Cloud Engineer
+============================================
+Describe a situation where you had to troubleshoot a technical issue under a tight deadline. What methodology did you follow?
+Scenario: “Your CI build fails with ‘dependency not found.’ Outline your investigation steps.”
+You notice intermittent 502 errors during canary deployment. How will you identify the root cause?
+CI/CD pipeline takes 40+ minutes. What optimizations would you apply?
+System Design & Architecture
+Design a highly available logging/monitoring system for 100+ microservices across 3 regions.
+How would you implement secure secret rotation (e.g., in Azure DevOps pipelines)?
+Your production AKS cluster is failing health checks randomly — how do you debug?
+Explain a rollback plan for a Kubernetes deployment using Terraform.
+How do you handle zero-downtime schema migrations for a stateful database?
+Design a cost-efficient nightly-reporting pipeline with 3-year log retention.
+Incident Response & On-the-Spot Thinking
+An Azure function is being throttled. How do you detect and mitigate it?
+You receive intermittent DNS resolution failures in cloud infra—what could be wrong?
+A critical end-user reports 10 sec latency spikes periodically — how do you root cause it?
+One pod shows high CPU usage without logs—what's your next step?
+Artifact uploads from Jenkins randomly fail—which layers do you investigate?
+
+Managerial & Behavioral
+=========================
+Tell me about a time you resolved a production incident with stakeholder pressure.
+How do you prioritize when critical alerts pop up during an ongoing release?
+Describe conflict resolution when working with distributed Dev and Ops teams.
+Have you ever decided not to automate something? Explain your trade-offs.
+What drives you to continue learning in cloud-native technologies?
